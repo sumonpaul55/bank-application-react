@@ -3,10 +3,10 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      color: {
+      colors: {
         primary: "#00040f",
         secondary: "#00f6ff",
-        dimwhite: "rgbs(255, 255, 255, .7)",
+        dimwhite: "rgba(255, 255, 255, .7)",
         dimblue: "rgba(9, 151, 124, .1)",
       },
       fontFamily: {
