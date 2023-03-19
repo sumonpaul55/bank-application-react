@@ -26,7 +26,9 @@ const Hero = () => (
       </p>
     </div>
     <div className="w-full">
-      <img src={robot} alt="robot" className="w-[100%] h-[100%] z-[5]" />
+      <img src={robot} alt="billing" className="w-full h-full z-[5] relative" />
+      <div className="absolute w-[40%] h-[35%] pink__gradient top-0 z-[0]" />
+      <div className="absolute w-[80%] h-[80%] white__gradient bottom-[40%] z-[1]" />
     </div>
   </section>
 );
